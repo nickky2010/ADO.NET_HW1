@@ -107,10 +107,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\University.ldf">
-      <DependentUpon>University.mdf</DependentUpon>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="App_Data\University.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
