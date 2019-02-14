@@ -107,6 +107,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\dbo.CreateDB.sql" />
     <Content Include="App_Data\dbo.Groups.data.sql" />
     <Content Include="App_Data\dbo.Groups.sql" />
     <Content Include="App_Data\dbo.sp_CreateGroup.sql" />
