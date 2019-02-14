@@ -1,0 +1,17 @@
+SET IDENTITY_INSERT [dbo].[Students] ON
+INSERT INTO [dbo].[Students] ([Id], [IdGroup], [Surname], [MarkByOOP], [MarkByWinForms], [MarkByADOdotNET]) VALUES (1, 1, N'Manko', 3, 3, 3)
+INSERT INTO [dbo].[Students] ([Id], [IdGroup], [Surname], [MarkByOOP], [MarkByWinForms], [MarkByADOdotNET]) VALUES (2, 1, N'Grin', 10, 9, 8)
+INSERT INTO [dbo].[Students] ([Id], [IdGroup], [Surname], [MarkByOOP], [MarkByWinForms], [MarkByADOdotNET]) VALUES (3, 1, N'Tereshenko', 9, 9, 10)
+INSERT INTO [dbo].[Students] ([Id], [IdGroup], [Surname], [MarkByOOP], [MarkByWinForms], [MarkByADOdotNET]) VALUES (4, 1, N'Asadchiy', 7, 8, 8)
+INSERT INTO [dbo].[Students] ([Id], [IdGroup], [Surname], [MarkByOOP], [MarkByWinForms], [MarkByADOdotNET]) VALUES (5, 1, N'Shetinin', 4, 4, 3)
+INSERT INTO [dbo].[Students] ([Id], [IdGroup], [Surname], [MarkByOOP], [MarkByWinForms], [MarkByADOdotNET]) VALUES (6, 2, N'Pupkin', 3, 2, 3)
+INSERT INTO [dbo].[Students] ([Id], [IdGroup], [Surname], [MarkByOOP], [MarkByWinForms], [MarkByADOdotNET]) VALUES (7, 2, N'Vasechkin', 6, 5, 8)
+INSERT INTO [dbo].[Students] ([Id], [IdGroup], [Surname], [MarkByOOP], [MarkByWinForms], [MarkByADOdotNET]) VALUES (8, 2, N'Ivanov', 7, 8, 5)
+INSERT INTO [dbo].[Students] ([Id], [IdGroup], [Surname], [MarkByOOP], [MarkByWinForms], [MarkByADOdotNET]) VALUES (9, 2, N'Petrov', 10, 10, 10)
+INSERT INTO [dbo].[Students] ([Id], [IdGroup], [Surname], [MarkByOOP], [MarkByWinForms], [MarkByADOdotNET]) VALUES (10, 2, N'Sidorov', 4, 7, 9)
+INSERT INTO [dbo].[Students] ([Id], [IdGroup], [Surname], [MarkByOOP], [MarkByWinForms], [MarkByADOdotNET]) VALUES (11, 3, N'Tygrikov', 6, 8, 4)
+INSERT INTO [dbo].[Students] ([Id], [IdGroup], [Surname], [MarkByOOP], [MarkByWinForms], [MarkByADOdotNET]) VALUES (12, 3, N'Kranikov', 7, 5, 8)
+INSERT INTO [dbo].[Students] ([Id], [IdGroup], [Surname], [MarkByOOP], [MarkByWinForms], [MarkByADOdotNET]) VALUES (13, 3, N'Zaets', 5, 6, 7)
+INSERT INTO [dbo].[Students] ([Id], [IdGroup], [Surname], [MarkByOOP], [MarkByWinForms], [MarkByADOdotNET]) VALUES (14, 3, N'Babaykin', 9, 9, 9)
+INSERT INTO [dbo].[Students] ([Id], [IdGroup], [Surname], [MarkByOOP], [MarkByWinForms], [MarkByADOdotNET]) VALUES (15, 3, N'Kokosik', 10, 10, 10)
+SET IDENTITY_INSERT [dbo].[Students] OFF

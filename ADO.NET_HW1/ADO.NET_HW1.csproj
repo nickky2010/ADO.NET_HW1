@@ -107,9 +107,11 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\University.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <Content Include="App_Data\dbo.Groups.data.sql" />
+    <Content Include="App_Data\dbo.Groups.sql" />
+    <Content Include="App_Data\dbo.sp_CreateGroup.sql" />
+    <Content Include="App_Data\dbo.Students.data.sql" />
+    <Content Include="App_Data\dbo.Students.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
