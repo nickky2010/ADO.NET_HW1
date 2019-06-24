@@ -1,19 +1,21 @@
-# ADO.NET_WinForms_HW1
-ITStep(Gomel)-ADO.NET WinForms Home work 1
+# ADO.NET_HW1
 
-Create a database consisting of the “Students” tables (fields: ID, Group Id, Last Name, OOP Score, WinForms Score, and ADO.Net Score) and “Groups” (fields: ID, Group Name, Curator's Last Name). Fill the table with data.
-Develop a WinForms application that performs the following functions:
+### Создать базу данных, состоящую из таблиц:
 
- display of information from the database in three tables: 
+* «Студенты» (поля: `ID`, `Id Группы`, `Фамилия`, `Оценка по ООП`, `Оценка по WinForms` и `Оценка по ADO.Net`);
 
-  in the first display the student's last name and his grades in subjects, 
+* «Группы» (поля: ID, Имя группы, Фамилия куратора). 
 
-  in the second display the groups and curators of these groups, 
+Заполнить таблицы данными.
 
-  in the third display the names of students, groups and average score for the session. 
-Use one command to get data;
 
-Adding information about the group;
+### Разработать приложение WinForms, выполняющее следующие функции:
 
-Determining the number of students in a given group who received excellent and unsatisfactory grades (separately).
-Use the connected operation mode ADO.Net. To create a connection string, use the SqlCommandBuilder object.
+* отображение информации из базы данных в  трех таблицах:  в первой отображать фамилию студента и его оценки по предметам, во второй отображать группы и кураторов этих групп, в третьей отображать фамилии студентов, группы и средний балл за сессию. Для получения данных использовать одну команду;
+
+* добавление информации о группе; 
+
+* определение количества студентов заданной группы, получивших отличные и неудовлетворительные оценки (отдельно).  
+
+Использовать подключенный режим работы `ADO.Net`.
+
